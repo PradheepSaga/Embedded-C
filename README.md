@@ -1,11 +1,5 @@
 # Embedded-C
 Essential C components used in Embedded Programming
-Code	                        Result                         CPU usage
-while(1) { printf(...); }	    Prints forever                 HIGH
-while(1);	                    Infinite loop, no output       HIGH (hangs the CPU)
-while(0) { printf(...); }     	Skipped                        NO
-while(0);	                    Skipped (does nothing)         NO
-
 While:-
 ⚙️ Real-World Embedded Use
 
